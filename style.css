@@ -1,0 +1,57 @@
+.scene3d {
+ 	margin-top: 100px;
+}
+
+#cube {
+ 	width: 200px;
+ 	height: 200px;
+ 	margin: 0 auto 40px;
+	
+	transform-style: preserve-3d;
+}
+
+#cube div {
+ 	position: absolute;
+ 	width: 200px;
+ 	height: 200px;
+}
+
+#cube div img {
+	height: 200px;
+}
+
+#1 {
+ 	background: #AFA;
+	opacity: 0.5;
+	transform: rotateX(45deg) rotateY(45deg) translateZ(45px);
+}
+
+#2 {
+ 	background: #FAA;
+ 	opacity: 0.5;
+	transform: rotateX(45deg) rotateY(45deg);
+}
+
+#3 {
+ 	background: #FFA;
+ 	opacity: 0.5;
+	transform: rotateX(45deg) rotateY(45deg);
+}
+
+#4 {
+	background: #FFA;
+	opacity: 0.5;
+	transform: rotateX(45deg) rotateY(45deg);
+}
+
+#5 {
+	background: #FFA;
+	opacity: 0.5;
+	transform: rotateX(45deg) rotateY(45deg);
+}
+
+#6 {
+	background: #FFA;
+	opacity: 0.5;
+	transform: rotateX(45deg) rotateY(45deg);
+}
